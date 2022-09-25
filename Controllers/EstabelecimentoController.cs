@@ -63,9 +63,4 @@ public class EstabelecimentoController : Controller
         }
         return RedirectToAction("Gerenciamento");
     }
-
-    public List<EstabelecimentoViewModel> RenderizarLayout()
-    {
-        return estabelecimentos;
-    }
 }

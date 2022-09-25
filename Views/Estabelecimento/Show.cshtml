@@ -1,0 +1,16 @@
+@model AvaliacaoLp3Bim3.ViewModels.EstabelecimentoViewModel
+
+@{
+    ViewData["Title"] = "Detalhe do Estabelecimento";
+}
+
+<h1>@Model.Nome</h1>
+<hr>
+<a class="a" href="/Estabelecimento/Excluir/@Model.Id">Excluir</a>
+<hr>
+<p>Id: @Model.Id</p>
+<p>Nome: @Model.Nome</p>
+<p>Descrição: @Model.Descricao</p>
+<p>Piso: @Model.Piso</p>
+<p>Tipo de Estabelecimento: @Model.LojaKiosque</p>
+<p>Email: @Model.Email</p>
